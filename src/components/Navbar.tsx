@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { joinForm } from "@/lib/tally";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +28,11 @@ const Navbar = () => {
                 <a href="#" className="text-white/80 hover:text-white text-sm font-medium transition-colors">
                   Community
                 </a>
-                <Button variant="glass" size="sm">
+                <Button 
+                  variant="glass" 
+                  size="sm"
+                  {...joinForm}
+                >
                   Join us
                 </Button>
               </div>
@@ -54,7 +59,12 @@ const Navbar = () => {
                   <a href="#" className="text-white/80 hover:text-white text-sm font-medium transition-colors">
                     Community
                   </a>
-                  <Button variant="glass" size="sm" className="w-full">
+                  <Button 
+                    variant="glass" 
+                    size="sm" 
+                    className="w-full"
+                    {...joinForm}
+                  >
                     Join us
                   </Button>
                 </div>

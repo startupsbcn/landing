@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { joinForm } from "@/lib/tally";
 
 const Hero = () => {
   return (
@@ -31,7 +32,12 @@ const Hero = () => {
           
           {/* CTA Button */}
           <div className="animate-fade-up-delay-3">
-            <Button variant="hero" size="xl" className="group">
+            <Button 
+              variant="hero" 
+              size="xl" 
+              className="group"
+              {...joinForm}
+            >
               Join the community
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
