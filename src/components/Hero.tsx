@@ -27,12 +27,12 @@ const Hero = () => {
           </div>
           
           {/* Main Title */}
-          <h1 className="animate-fade-up-delay-1 font-heading text-5xl md:text-7xl lg:text-8xl font-black text-white text-shadow-hero mb-6 tracking-tight">
+          <h1 className="animate-fade-up-delay-1 font-heading text-5xl md:text-7xl lg:text-8xl font-medium text-white text-shadow-hero mb-6 tracking-tight">
             Startups BCN
           </h1>
           
           {/* Subtitle */}
-          <p className="animate-fade-up-delay-2 text-lg md:text-xl lg:text-2xl text-white/90 max-w-2xl mx-auto mb-10 leading-relaxed font-light">
+          <p className="animate-fade-up-delay-2 text-lg md:text-xl lg:text-2xl text-white/90 max-w-2xl mx-auto mb-10 leading-relaxed">
             Connect, collaborate, and grow with innovators, founders, and builders. 
             Join a thriving network and connect with fellow builders in Barcelona.
           </p>

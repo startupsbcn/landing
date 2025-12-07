@@ -13,7 +13,7 @@ const CTA = () => {
             </div>
           </div>
           
-          <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
+          <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl font-medium text-foreground mb-6">
             Ready to build the future?
           </h2>
           
@@ -36,7 +36,7 @@ const CTA = () => {
           {/* Stats */}
           <div className="mt-16 grid grid-cols-3 gap-8 max-w-2xl mx-auto">
             <div>
-              <div className="font-heading text-4xl md:text-5xl font-bold text-primary mb-2">
+              <div className="font-heading text-4xl md:text-5xl font-medium text-primary mb-2">
                 500+
               </div>
               <div className="text-muted-foreground text-sm">
@@ -44,7 +44,7 @@ const CTA = () => {
               </div>
             </div>
             <div>
-              <div className="font-heading text-4xl md:text-5xl font-bold text-primary mb-2">
+              <div className="font-heading text-4xl md:text-5xl font-medium text-primary mb-2">
                 50+
               </div>
               <div className="text-muted-foreground text-sm">
@@ -52,7 +52,7 @@ const CTA = () => {
               </div>
             </div>
             <div>
-              <div className="font-heading text-4xl md:text-5xl font-bold text-primary mb-2">
+              <div className="font-heading text-4xl md:text-5xl font-medium text-primary mb-2">
                 20+
               </div>
               <div className="text-muted-foreground text-sm">

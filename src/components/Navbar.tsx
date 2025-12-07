@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className="glass-card rounded-2xl px-6 py-4">
             <div className="flex items-center justify-between">
               {/* Logo */}
-              <a href="/" className="font-heading text-xl font-bold text-white">
+              <a href="/" className="font-heading text-xl font-medium text-white">
                 Startups BCN
               </a>
               

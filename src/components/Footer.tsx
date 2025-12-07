@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center justify-center">
           {/* Logo */}
-          <div className="font-heading text-2xl font-bold mb-6">
+          <div className="font-heading text-2xl font-medium mb-6">
             Startups BCN
           </div>
           

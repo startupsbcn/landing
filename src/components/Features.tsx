@@ -32,7 +32,7 @@ const Features = () => {
           <span className="text-primary font-semibold text-sm uppercase tracking-wider mb-4 block">
             Why Join Us
           </span>
-          <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-6">
+          <h2 className="font-heading text-4xl md:text-5xl font-medium text-foreground mb-6">
             Better together
           </h2>
           <p className="text-muted-foreground text-lg">
@@ -52,7 +52,7 @@ const Features = () => {
               <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
                 <feature.icon className="w-7 h-7 text-primary group-hover:text-primary-foreground transition-colors" />
               </div>
-              <h3 className="font-heading text-xl font-bold text-foreground mb-3">
+              <h3 className="font-heading text-xl font-medium text-foreground mb-3">
                 {feature.title}
               </h3>
               <p className="text-muted-foreground leading-relaxed">
