@@ -24,7 +24,7 @@ const Hero = () => {
           </h1>
           
           {/* Subtitle */}
-          <p className="animate-fade-up-delay-2 text-lg md:text-xl lg:text-2xl text-white/90 max-w-2xl mx-auto mb-10 leading-relaxed">
+          <p className="animate-fade-up-delay-2 text-lg md:text-xl lg:text-2xl text-white/90 max-w-2xl mx-auto mb-10 leading-relaxed text-shadow-subtle">
             Connect, collaborate, and grow with innovators, founders, and builders. 
             Join a thriving network and connect with fellow builders in Barcelona.
           </p>
