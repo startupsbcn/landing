@@ -17,18 +17,10 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <div className="max-w-4xl mx-auto">
-          {/* Badge */}
-          <div className="animate-fade-up mb-6">
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card text-white/90 text-sm font-medium">
-              <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-              by builders for builders
-            </span>
-          </div>
-          
+        <div className="max-w-2xl mx-auto">
           {/* Main Title */}
-          <h1 className="animate-fade-up-delay-1 font-heading text-5xl md:text-7xl lg:text-8xl font-medium text-white text-shadow-hero mb-6 tracking-tight">
-            Startups BCN
+          <h1 className="animate-fade-up-delay-1 font-heading text-4xl md:text-6xl lg:text-7xl font-medium text-white text-shadow-hero mb-6 tracking-tight">
+          The Barcelona Startup Community
           </h1>
           
           {/* Subtitle */}
