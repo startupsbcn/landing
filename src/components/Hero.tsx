@@ -1,17 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { joinForm } from "@/lib/tally";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: "url('/barcelona-skyline.jpg')",
-        }}
-      />
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: "url('/barcelona-skyline.jpg')"
+    }} />
       
       {/* Gradient Overlay */}
       <div className="absolute inset-0 gradient-hero-overlay" />
@@ -21,7 +16,7 @@ const Hero = () => {
         <div className="max-w-2xl mx-auto">
           {/* Main Title */}
           <h1 className="animate-fade-up-delay-1 font-heading text-4xl md:text-6xl lg:text-7xl font-medium text-white text-shadow-hero mb-6 tracking-tight">
-          The Barcelona Startup Community
+          Uniting the Barcelona Tech Scene    
           </h1>
           
           {/* Subtitle */}
@@ -32,12 +27,7 @@ const Hero = () => {
           
           {/* CTA Button */}
           <div className="animate-fade-up-delay-3">
-            <Button 
-              variant="hero" 
-              size="xl" 
-              className="group"
-              {...joinForm}
-            >
+            <Button variant="hero" size="xl" className="group" {...joinForm}>
               Join the community
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
@@ -51,8 +41,6 @@ const Hero = () => {
           <div className="w-1 h-2 bg-white/60 rounded-full animate-pulse" />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
